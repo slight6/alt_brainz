@@ -1,0 +1,9 @@
+// standard git ignore file
+# Ignore node_modules
+node_modules/
+# Ignore log files
+*.log
+# Ignore environment variables
+.env
+# Ignore package lock files
+package-lock.json
