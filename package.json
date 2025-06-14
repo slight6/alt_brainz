@@ -1,0 +1,39 @@
+{
+  "name": "alt_brainz",
+  "version": "0.0.1",
+  "description": "flash card program for spaced repetition",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slight6/alt_brainz.git"
+  },
+  "keywords": [
+    "flash",
+    "cards",
+    "spaced",
+    "repetition",
+    "community",
+    "learning",
+    "social",
+    "media"
+  ],
+  "author": "Jason Consiglio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slight6/alt_brainz/issues"
+  },
+  "homepage": "https://github.com/slight6/alt_brainz#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.15.2",
+    "nodemon": "^3.1.10"
+  }
+}
